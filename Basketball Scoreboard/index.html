@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Habibi&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <h3 class="team">HOME</h3>
+            <p id="home-display" class="score">0</p>
+            <button class="point" onclick="plusOne()">+1</button>
+            <button class="point" onclick="plusTwo()">+2</button>
+            <button class="point" onclick="plusThree()">+3</button>
+        </div>
+        <div class="foul-cont">
+            <h5 class="fouls" id="right">FOULS</h5>
+            <p id="home-fouls" class="foul-point">0</p>
+            <button class="point" id="point-right" onclick="homeFoul()">+1</button>
+        </div>
+        <div class="middle">            
+            <h5 class="period">PERIOD</h5>
+            <p id="period"></p>
+            <button class="point" id="next" onclick="nextQuarter()">Next</button>
+            <br>
+            <button class="point" id="new-game" onclick="newGame()">NEW GAME</button>
+        </div>
+        <div class="foul-cont">
+            <h5 class="fouls">FOULS</h5>
+            <p id="guest-fouls" class="foul-point">0</p>
+            <button class="point" onclick="guestFoul()">+1</button>
+        </div>
+        <div class="first">
+            <h3 class="team">GUEST</h3>
+            <p id="guest-display" class="score">0</p>
+            <button class="point" onclick="plusOneGuest()">+1</button>
+            <button class="point" onclick="plusTwoGuest()">+2</button>
+            <button class="point" onclick="plusThreeGuest()">+3</button>
+        </div>
+       
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

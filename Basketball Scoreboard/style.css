@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Habibi', serif;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 500px;
+    border: 5px double black;
+    background: darkslategrey;
+    border-radius: 4px;
+}
+
+.first {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team {
+    font-size: 30px;
+    margin: 0px 0 5px 0;
+}
+
+.score {
+    
+   max-width: 200px;
+   
+    background: black;
+    margin: 0 auto;
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+}
+
+.point {
+    margin-top: 7px;
+    background: aliceblue;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 4px;
+    font-family: 'Habibi', serif;
+    padding: 3px;
+    padding-bottom: 5px;
+}
+
+#next {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.foul-cont {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fouls {
+    margin-top: 40px;
+    font-size: 14px;
+    margin-bottom: 0;
+    
+}
+
+.foul-point {
+    max-width: 50px;
+    font-size: 20px;
+    background: black;
+    color: greenyellow;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+
+.period {
+    font-size: 20px;
+    margin-top: 0;    
+}
+
+#period {
+    text-align: center;
+    max-width: 40px;
+    font-size: 25px;
+    background: black;
+    color: yellow;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    margin: -25px auto 2px auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+}
+
+#new-game {
+    margin-top: 20px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background: black;
+    color: aliceblue;
+    font-size: 18px;
+    width: max-content;
+    border: 1px solid white;
+    font-family: 'Habibi', serif;
+}
+
+.middle {
+    margin: 0 auto;
+    text-align: center;
+}
