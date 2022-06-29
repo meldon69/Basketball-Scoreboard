@@ -13,7 +13,7 @@ body {
     text-align: center;
     max-width: 500px;
     border: 5px double black;
-    background: darkslategrey;
+    background: rgba(0, 0, 35, .85);
     border-radius: 4px;
 }
 
